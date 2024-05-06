@@ -20,8 +20,8 @@ import sys
 
 
 # Definindo suas variáveis globais
-usr = "gustavo.rocha"
-psw = "Rocha#Gustavo"
+usr = "user"
+psw = "password"
 dt_bgn = "01/06/2023"
 dt_end = "30/10/2023"
 
