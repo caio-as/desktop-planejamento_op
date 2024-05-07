@@ -70,7 +70,7 @@ def do_web_scraping():
     browser = webdriver.Chrome()
     browser.maximize_window()
     #abre o Aniel - Conect (sistema de OS da lpnet)
-    browser.get("https://gerenet.idctelecom.net.br/acesso_log.php")
+    browser.get("url aqui")
     time.sleep(20)
 
     #autentica e entra no portal
@@ -82,7 +82,7 @@ def do_web_scraping():
 
     #entre no painel gereisp
     #essa etapa do processo não vai navegar pelos botões/gereisp e menu de navegação suspenso/produção/ordens de serviço/filtro desktop matriz/base os
-    browser.get("https://gerenet.idctelecom.net.br/cons_os.php?quadro=filtro_edit_listar&atualizar=sim&filtro_data=2023-03-21_07:58:18")
+    browser.get("url aqui")
     time.sleep(10)
     print("Entrou no filtro desktop matriz base os")
 
@@ -111,7 +111,7 @@ def do_web_scraping():
 
     #clica em csv - vai exportar a planilha excel
     #time.sleep(10)
-    browser.get("https://gerenet.idctelecom.net.br/cons_os.php?exporta=csv&sort_ascendente=&quadro=detalhado&atualizar=sim&sql_limite_pag_i=0&pode_fechar=sim&pag_anterior=-30&pag_posterior=30&acao=mostra_todos")
+    browser.get("url aqui")
     time.sleep(20)
     print("clicou em csv")
 
